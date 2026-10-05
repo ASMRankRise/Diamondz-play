@@ -104,7 +104,13 @@ export default function Home() {
             <p className="hero-description">{siteContent.introduction}</p>
 
             <div className="hero-actions">
-              <a href={siteContent.email.href} className="primary-link">
+              <a
+                href={siteContent.phones[1].href}
+                target="_blank"
+                rel="noreferrer"
+                className="primary-link"
+              >
+                <WhatsAppIcon size={16} />
                 <span>Get in touch</span>
                 <ArrowUpRight size={16} className="btn-icon" />
               </a>
