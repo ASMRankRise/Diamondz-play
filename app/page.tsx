@@ -295,16 +295,6 @@ export default function Home() {
                     <ArrowUpRight size={13} className="footer-item-arrow" />
                   </a>
                 </li>
-                <li>
-                  <a href={siteContent.phones[0].href} target="_blank" rel="noreferrer" className="footer-contact-link">
-                    <span className="footer-link-icon-wrap footer-link-icon-wa"><WhatsAppIcon size={14} /></span>
-                    <div className="footer-contact-text">
-                      <span className="footer-contact-label">WhatsApp Helpline</span>
-                      <span className="footer-contact-val">{siteContent.phones[0].display}</span>
-                    </div>
-                    <ArrowUpRight size={13} className="footer-item-arrow" />
-                  </a>
-                </li>
               </ul>
             </div>
 
